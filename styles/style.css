@@ -59,6 +59,7 @@ aside {
 
 aside > h2{
     font-size:2rem;
+    padding-left: 1rem;
 }
 
 p, li, h1, ul {

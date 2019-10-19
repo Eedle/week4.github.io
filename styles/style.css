@@ -1,4 +1,4 @@
-﻿p.color {
+p.color {
     color: white;
 }
 
@@ -24,14 +24,27 @@ li.navbaritem{
     float: left;
 }
 
-
-
 div.navbarbox
 {
     display: block;
     color: red;
     text-align: center;
     padding: .3rem .3rem;
+}
+
+footer.footstyle{
+    background-color:grey;
+    padding-top: 3rem;
+}
+
+section.mainsection{
+
+    background-color: white;
+    padding: 2rem;
+}
+
+p.sectionpstyle {
+    color: black;
 }
 
 p, li, h1, ul {

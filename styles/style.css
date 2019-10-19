@@ -47,13 +47,27 @@ p.sectionpstyle {
     color: black;
 }
 
+section.section1 {
+    background-color: #bf80ff;
+    padding: 1rem;
+}
+
+aside {
+    border: .5rem dashed #4d0099;
+    background-color: #e6ccff;
+}
+
+aside > h2{
+    font-size:2rem;
+}
+
 p, li, h1, ul {
     color: DarkSlateGray;
     /*Changes the color of paragraphs, list items, unorganized lists, and heading 1s.*/
 }
 
 html {
-    font-family: Luminari, cursive, fantasy;
+    file: ///Users/rj/Desktop/web-projects/test-site/week-4/index.html font-family: Luminari, cursive, fantasy;
     /*changes the default font and supplies backup fonts in case the first choice is not avialable*/
     font-size: 10px;
     /*Sets the default font size across all html pages referencing this CSS file*/
@@ -137,3 +151,4 @@ a:active {
     text-decoration: none;
     /*Removes text decoration while link is in the process of being activated*/
 }
+

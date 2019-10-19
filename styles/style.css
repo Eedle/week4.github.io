@@ -68,7 +68,7 @@ p, li, h1, ul {
 }
 
 html {
-    file: ///Users/rj/Desktop/web-projects/test-site/week-4/index.html font-family: Luminari, cursive, fantasy;
+    font-family: Luminari, cursive, fantasy;
     /*changes the default font and supplies backup fonts in case the first choice is not avialable*/
     font-size: 10px;
     /*Sets the default font size across all html pages referencing this CSS file*/

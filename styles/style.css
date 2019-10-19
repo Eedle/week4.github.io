@@ -1,0 +1,126 @@
+﻿p.color {
+    color: white;
+}
+
+body.backdrop {
+    background-color: black;
+}
+
+header.banner {
+    background-color: white;
+    border: .20rem solid red;
+    color: black;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+}
+
+li.navbaritem{
+    float: left;
+}
+
+
+
+div.navbarbox
+{
+    display: block;
+    color: red;
+    text-align: center;
+    padding: .3rem .3rem;
+}
+
+p, li, h1, ul {
+    color: DarkSlateGray;
+    /*Changes the color of paragraphs, list items, unorganized lists, and heading 1s.*/
+}
+
+html {
+    font-family: Luminari, cursive, fantasy;
+    /*changes the default font and supplies backup fonts in case the first choice is not avialable*/
+    font-size: 10px;
+    /*Sets the default font size across all html pages referencing this CSS file*/
+}
+
+p, li {
+    font-size: 1.8em;
+    /*Changes the font size of paragraph and list elements to be 1.8 times the size of the font set in the html tag*/
+}
+
+h1 {
+    font-size: 3em;
+    /*Changes fontsize of heading one element by an order of em units*/
+}
+
+h2 {
+    font-size: 2.4em;
+    /*Changes fontsize of heading two element by an order of em units*/
+}
+
+li {
+    line-height: 2.5rem;
+    /*Changes fontsize of list item element by an order of em units*/
+}
+
+header, main {
+    padding: 2.5rem;
+    /*In this case, adds padding to the peices of content within header and main*/
+    /*Padding is the horizontal &/or vertical space between a peice of content and it's rectangular border*/
+}
+
+header {
+    background-color: #ffce99;
+    /*Sets the background colour of content within the header*/
+    border-bottom: .3rem solid #4d0099;
+    /*Creates border bottom, .3rem determines thickness of border, solid styles the border solid, and then the colour is selected*/
+}
+
+    header > h1 {
+        color: #4d0099;
+        /*Sets the colour of text within the h1 element if it is the child of header*/
+        line-height: 2.5rem;
+        /*Vertically sets the line height around text within the h1 element if it is the child of header*/
+    }
+
+main {
+    max-width: 33em;
+    /*Sets max width of main element*/
+    /*If content could exceed max width, height will be changed to compensate*/
+}
+
+a:link {
+    color: #660066;
+    /*Sets the default colour of links univisited*/
+}
+
+a:visited {
+    color: #ff8c1a;
+    /*Sets the colour of visited links*/
+}
+
+li.a:hover {
+    background-color: black;
+}
+
+a:hover {
+    color: #660066;
+    /*Changes the colour of link when hovered over by cursor*/
+    text-decoration: none;
+    /*Removes text decoration of link, in this case underline*/
+    background-color: #cc99ff
+    /*Changes the background colour of box around link content*/
+}
+
+a:active {
+    background-color: #660066;
+    /*Changes background colour of box around link content while link is in the process of being activated*/
+    /*For example, while cursor is over link and left mouse button is held down, but not yet released*/
+    color: #cc99ff;
+    /*Changes the colour of link text while link is in the process of being activated*/
+    text-decoration: none;
+    /*Removes text decoration while link is in the process of being activated*/
+}
